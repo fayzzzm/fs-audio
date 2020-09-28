@@ -1,5 +1,9 @@
 {
-  "folders": [],
-  "settings": {},
-  "editor.formatOnSave": true
+    "eslint.validate": [
+        "javascript",
+        "javascriptreact",
+        { "language": "typescript", "autoFix": true },
+        { "language": "typescriptreact", "autoFix": true }
+    ],
+    "editor.formatOnSave": true
 }
